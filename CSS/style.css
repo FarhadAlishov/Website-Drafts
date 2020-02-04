@@ -1,0 +1,229 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  line-height:1.4;
+  margin: auto;
+  padding: 0;
+}
+@font-face {
+  font-family: NFS;
+  src: url(http://fonts.by/pages/fonts/accident_ornamental/nfs_font.ttf) format('truetype');
+}
+h1 {
+  font-size: 310%;
+  padding: 0;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 186%;
+  padding: 0;
+}
+h3 {
+  font-size: 217%;
+}
+p1 {
+  font-size: 124%;
+}
+p2 {
+  font-size: 100%;
+}
+p3 {
+  font-size: 155%;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.container, .container-header{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+li{
+  margin-right: 10px;
+}
+.header{
+  margin-left: 10px;
+}
+/*Logo on top of pages*/
+.logo{
+  float: left;
+  width: 133px;
+  height: 100px;
+  margin-top: -30px;
+}
+header{
+  background: #8B4513;
+  height:100px;
+  padding-top: 0px;
+  width: 100%;
+}
+#container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav{
+  float: left;
+  margin-top: 10px;
+}
+header ul{
+  margin: 0;
+  padding-top: 0;
+  text-align: center;
+}
+header li{
+  font-size: 180%;
+  float: left;
+  display: inline-block;
+  padding: 20px;
+}
+header a{
+  font-family: NFS;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 2px black;
+}
+header a:hover{
+  color:#A9A9A9;
+  width: 5px;
+}
+.current {
+  color:#A9A9A9;
+}
+#menu-icon{
+  display: hidden;
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
+  background-image: url("../img/win.jpg");
+}
+a:hover#menu-icon{
+  border-radius: 4px 4px 4px 4px;
+}
+#showcase {
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+#boxes {
+  float:left;
+  color:#f4f4f4;
+  width:100%;
+  font-family: 'Roboto Slab', serif;
+}
+#container-menu1, #container-menu2{
+  margin: 0 auto;
+  background-image: url("../img/dark.jpg");
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+  display: table;
+  width: 100%; /*Optional*/
+}
+#menu-width{
+  margin: 0 auto;
+  margin-left: 180px;
+  margin-right: 0px;
+}
+#text h3, #text p3{
+  width:35%;
+}
+#price h3, #price p3{
+  width:25%;
+}
+#photo{
+  width:30%;
+}
+aside{
+  float:left;
+  margin: 0 auto;
+  height:auto;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+article {
+  float:left;
+  text-align: center;
+  height:auto;
+  padding: 7% 0 7% 0;
+  margin: 0 auto;
+}
+.box {
+  color: #000000;
+  float: left;
+  text-align: center;
+  width: 42%;
+  padding-left: 55px;
+  padding-bottom: 35px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+}
+@media screen and (max-width:768px) {
+  h1 {
+    padding-top: 100px;
+  }
+  h2 {
+    font-size: 186%;
+  }
+  header a {
+    font-family: Arial, serif;
+    text-transform: uppercase;
+  }
+  header {
+    position: absolute;
+  }
+  header li{
+    display: none;
+  }
+  #menu-icon{
+    display: inline-block;
+  }
+  h3{
+    font-size: 220%;
+  }
+  p3{
+    font-size: 150%;
+  }
+  aside{
+    float:left;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    height:auto;
+  }
+  article{
+    display:none;
+  }
+}
+@media screen and (max-width:940px) {
+  .box {
+    width: 80%;
+    padding-left: 45px;
+  }
+}
+@media screen and (max-width:1145px) {
+  li{
+    margin-right: -20px;
+  }
+  .container-header{
+    width:90%;
+  }
+  .header{
+    margin-left: 70px;
+  }
+  article{
+    display:none;
+  }
+  #text h3, #text p3{
+    text-align: center;
+    width:55%;
+  }
+  #price h3, #price p3{
+    width:45%;
+    margin-right: 0;
+  }
+}
